@@ -1,0 +1,306 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#login {
+    width: 600px;
+    margin-top: 55px;
+    margin-left: 165px;
+}
+
+.login_btns {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#login_btn {
+    background-color: white;
+    border: none;
+    font-weight: 600;
+    padding: 0 28px;
+}
+
+#signup_btn {
+    background-color: black;
+    color: white;
+    padding: 0 28px;
+    font-weight: 600;
+    border: none;
+    height: 40px;
+    width: auto;
+}
+
+#login_btn:hover {
+    color: #FC8019;
+}
+
+#input_ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #FC8019;
+    width: 600px;
+    height: 60px;
+}
+
+input {
+    border: none;
+    width: 438px;
+    height: 90%;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+input:focus {
+    outline: none;
+}
+
+#loc {
+    background-color: white;
+    border: none;
+    width: 140px;
+    padding: 12px 10px;
+    color: #535665;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+#loc:hover {
+    cursor: pointer;
+    background-color: #eaeaee;
+}
+
+#find_f {
+    width: 140px;
+    height: 100%;
+    border: none;
+    background-color: #FC8019;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 14px;
+    letter-spacing: -0.47px;
+    cursor: pointer;
+}
+
+#login h3 {
+    width: 600px; 
+    height: 18px; 
+    color: #a9abb2; 
+    text-transform: uppercase; 
+    font-weight: 400; 
+    font-size: 14px;
+    margin: 30px 0 10px;
+}
+
+#list {
+    list-style: none;
+    width: 620px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+#list a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.odd_list {
+    color: #686b78;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+}
+
+.even_list{
+    color: #93959f;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+}
+
+#login_comp {
+    display: flex;
+    justify-content: space-between;
+}
+
+#login_img {
+    background-image: url(/Images/Lunch1_vlksgq.jpeg);
+    background-position: center;
+    width: 680px;
+    height: 540px;
+    background-size: cover;
+    margin-left: 30px;
+}
+
+#features_comp {
+    display: flex;
+    justify-content: space-around;
+    width: 100%; 
+    height: 403px; 
+    background-color: #2b1e16;
+}
+
+.feature_img {
+    display: flex;
+    justify-content: center;
+}
+
+.feature_img img {
+    width: 120px;
+    margin-bottom: 42px;
+}
+
+.feature h3 {
+    color: white;
+    font-size: 20px;
+}
+
+.feature p {
+    font-size: 15px;
+    color: #e0cbc1;
+    font-weight: 100;
+}
+
+.feature {
+    text-align: center;
+    height: 250px;
+    width: 280px;
+    padding-bottom: 30px;
+}
+
+#rest_ {
+    display: flex;
+    height: 570px;
+    margin: 0 140px;
+}
+
+#cont_ h1 {
+    color: #282c3f;
+    font-size: 40px;
+    letter-spacing: -.43px;
+    width: 300px;
+    height: 80px;
+    margin-top: 150px;
+}
+
+#cont_ p {
+    color: #7e808c;
+    width: 400px;
+    height: 48px;
+    font-size: 20px;
+    padding-bottom: 60px;
+    font-weight: 300;
+}
+
+#download_images{
+    margin-left: 105px;
+}
+
+footer {
+    height: 562px;
+    background-color: black;
+}
+
+#footer_container {
+    display: flex;
+    justify-content: center;
+    padding: 76px 20px 0px;
+}
+
+#footer_container div {
+    border-bottom: 1px solid #4d4d4d;
+    padding-bottom: 25px;
+}
+
+#footer_container #company, footer #contact {
+    width: 300px;
+    height: 357px;
+}
+
+#footer_container #legal {
+    width: 400px;
+    height: 357px;
+}
+
+#footer_container #footer_btns {
+    width: 240px;
+    height: 357px;
+}
+
+#footer_container div h4 {
+    font-size: 15px;
+    color: #808080;
+    margin-left: 40px;
+    margin-bottom: 35px;
+}
+
+#footer_container div ul {
+    list-style: none;
+    margin: 0;
+}
+
+#footer_container div ul li {
+    color: #ffffff;
+    margin: 15px 0;
+}
+
+#footer_container ul li:hover {
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#footer_btns a img {
+    border: 2px solid #808080;
+    border-radius: 10px;
+    margin: 15px 0;
+    transition: transform 450ms;
+}
+
+#footer_btns a img:hover {
+    transform: scale(1.05);
+}
+
+#footer_btns {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer_details {
+    padding: 29px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright span {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.social_media{
+    margin-right: 125px;
+}
+
+.social_media a i {
+    transition: transform 450ms;
+}
+
+.social_media a i:hover {
+    transform: scale(1.2);
+}
+
+.footer_logo {
+    margin-left: 140px;
+}
